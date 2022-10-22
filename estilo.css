@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
 	box-sizing: border-box;
 }
 
 body{
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 .navbar{
@@ -19,7 +22,12 @@ body{
 	flex: 20%; 
 	text-align: center;
 	margin-left: 10%;
+}
+
+.logo h1{
+	font-family: 'Lobster', cursive;
 	color: #180F4A;
+	font-size: 34px;
 }
 
 .menu{
@@ -53,5 +61,6 @@ body{
 	border: none;
 	background: #FF2978;
 }
-/*6: 02: 20 font ate 4: 20
+/*
+6: 14;
 */
