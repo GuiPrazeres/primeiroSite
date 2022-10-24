@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+	box-sizing: border-box;
+	/*Assim, o width levará em consideração o padding e a borda. Será um width com mais precisão*/
+}
+
+body{
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+	background: white;
+	height: 100px;
+	display: flex; /*Modo novo que da maior dominio do layout da pagina*/
+	flex-flow: row wrap; /*Flex direction e Fle flow numa só... nese caso para os Elementos ficarem em linha, e em uma segunda coluna caso não caibam na tela*/
+	justify-content: center; /*Posiciona todos os elementos de forma horizontal dentro da borda flex pai*/
+	align-items: center; /*Posiciona todos os elementos individuais de forma vertical dentro da borda flex pai (Enquanto align-content faz o mesmo só que de forma em grupo)*/
+}
+
+.logo{
+	flex: 20%; /*Tipo um width da tela em %*/
+	text-align: left; /* Posiciona o elemento escrito dentro da propria borda */
+	margin-left: 10%; /*Espaçamento fora da borda*/
+}
+
+.logo h1{
+	font-family: 'Lobster', cursive;
+	color: #180F4A;
+	font-size: 34px;
+}
+
+.menu{
+	flex:  70%;
+	text-align: right;	
+	padding: 20px; /*Espaçamento dentro da borda do elemento*/
+}
+
+.menu a{
+	color: #180F4A;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 20px 16px;
+}
+
+.menu a:hover{
+	color:  #FF2978;
+	border-top: 4px solid #180F4A;
+}
+
+#botao{
+	background: #180F4A;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 5px;
+	margin-right: 10%;
+	margin-left: 5%;
+}
+
+#botao:hover{
+	border: none;
+	background: #FF2978;	
+}
+
+.header{	
+	background: white;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+.headline{
+	margin-left: 10%;
+	flex: 40%;
+}
+
+.headline h2{
+	font-weight: 900; /*Nivel de Negrito*/
+	font-size: 20px;
+	color: #180F4A;
+	padding: 0;
+	margin: 0;
+}
+
+.headLine p{
+	color: gray;
+	text-align: left;
+}
+
+.contact-btn{	
+	background: #FF2978;
+	text-transform:  uppercase;
+	text-decoration:  none;	
+	padding: 20px;
+	color: white;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.contact-btn:hover{
+	background: #180F4A;
+}
+
+.img-headline{
+	margin-right: 10%;
+	flex: 40%;
+	text-align: center;
+}
+
+
+
+
+
+/*
+6: 17;
+*/
